@@ -10,4 +10,4 @@ Main page:
 ![PhonebookSchreenshot](https://github.com/Borovaneca/Phonebook/blob/main/pics/homepage.png?raw=true "phonebook")
 
 Buttons:
-![PhonebookButtons](https://github.com/Borovaneca/Phonebook/blob/main/pics/buttons.png?raw=true = "phonebookbuttons")
+![PhonebookButtons](https://github.com/Borovaneca/Phonebook/blob/main/pics/buttons.png?raw=true "phonebookbuttons")
