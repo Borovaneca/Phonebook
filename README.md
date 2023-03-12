@@ -11,3 +11,7 @@ Main page:
 
 Buttons:
 ![PhonebookButtons](https://github.com/Borovaneca/Phonebook/blob/main/pics/buttons.png?raw=true "phonebookbuttons")
+
+Edit page:
+![PhonebookEditPage](https://github.com/Borovaneca/Phonebook/blob/main/pics/editpage.png?raw=true "editpage")
+
