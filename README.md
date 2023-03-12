@@ -4,6 +4,17 @@ Simple Phonebook Application
 
 Hello guys, here you can find the simple app I made during my study at [SoftUni](https://softuni.bg).
 
+<p>
+
+Basic phonebook web application given as a task from SoftUni in Java Fundamentals Module.</br>
+
+
+1. The application runs on Java 19.
+2. In order to start it, first you need to set the version of the SDK to 19 in the project settings of your IDE.</br>
+3. The version of the SDK is also specified in the pom.xml file.</br>
+
+</p>
+
 **SCHREENSHOTS**
 
 Main page:
