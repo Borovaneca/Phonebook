@@ -18,3 +18,11 @@ Edit button:
 Edit page:
 ![PhonebookEditPage](https://github.com/Borovaneca/Phonebook/blob/main/pics/editpage.png?raw=true "editpage")
 
+After editing:
+![AfterEditing](https://github.com/Borovaneca/Phonebook/blob/main/pics/updated.png?raw=true "edited")
+
+Delete button:
+![DeleteButton](https://github.com/Borovaneca/Phonebook/blob/main/pics/deletebutton.png?raw=true "delete")
+
+After deleting:
+![DeleteContact](https://github.com/Borovaneca/Phonebook/blob/main/pics/delete.png?raw=true "deleted")
