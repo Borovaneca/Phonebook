@@ -6,4 +6,8 @@ Hello guys, here you can find the simple app I made during my study at [SoftUni]
 
 **SCHREENSHOTS**
 
+Main page:
 ![PhonebookSchreenshot](https://github.com/Borovaneca/Phonebook/blob/main/pics/homepage.png?raw=true "phonebook")
+
+Buttons:
+![PhonebookButtons](https://github.com/Borovaneca/Phonebook/blob/main/pics/buttons.png?raw=true = "phonebookbuttons")
