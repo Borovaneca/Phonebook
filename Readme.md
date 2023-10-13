@@ -1,7 +1,7 @@
 # SoftUni Phonebook Workshop
 <p>
 Basic phonebook web application given as a task from SoftUni in Java Fundamentals Module.</br>
-##In order to run the application you need to follow the steps.
+##In order to run the application you need to follow the steps.</br>
 1. Create a locally hosted DB. I used MySQL on a port: **3306**</br>
 2. The application runs on ``Java 11``.</br>
 2. In order to start it, first you need to set the version of the SDK to ``11`` in the project settings of your IDE.</br>
