@@ -1096,8 +1096,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="322" parent="1" name="phonebook">
-      <IntrospectionTimestamp>2023-10-13.06:39:15</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-10-13.00:39:15</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-10-13.12:10:14</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-10-13.06:10:14</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="323" parent="1" name="mysql.infoschema">
