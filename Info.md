@@ -1,4 +1,4 @@
-#SoftUni Phonebook Workshop
+# SoftUni Phonebook Workshop
 <p>
 Basic phonebook web application given as a task from SoftUni in Java Fundamentals Module.</br>
 ##In order to run the application you need to follow the steps.
@@ -11,7 +11,9 @@ Basic phonebook web application given as a task from SoftUni in Java Fundamental
 
 **Screenshots:**
 ![phoneBookScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/register.png "register")
-![editContactScreenshot](https://github.com/NMKrastev/phonebook/blob/main/screenshots/editContact.png?raw=true "editContact")
-![deleteContactScreenshot](https://github.com/NMKrastev/phonebook/blob/main/screenshots/deleteContact.png?raw=true "deleteContact")
-![DBEntryScreenshot](https://github.com/NMKrastev/phonebook/blob/main/screenshots/DBEntries.PNG?raw=true "DBEntries")
-
+![loginContactScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/login.png "login")
+![emptyContactScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/empty.png "emptyContact")
+![DBContactsScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/contact_DB.png "DBContacts")
+![DBUsersScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/user_DB.png "DBUsers")
+![editContactScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/edit.png "editContact")
+![contactScreenshot](https://github.com/Borovaneca/Phonebook/blob/master/src/main/resources/images/contacts.png "contacts")
