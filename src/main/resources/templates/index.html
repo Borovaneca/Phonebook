@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="~{fragments/head}"></th:block>
+</head>
+<body>
+<th:block th:replace="~{fragments/nav}"></th:block>
+<form th:method="post"
+      th:object="${userLoginDTO}"
+>
+    <label for="username">Username</label>
+    <input type="text" autofocus="autofocus"
+           name="username"
+           th:value="*{username}"
+           th:errorclass="is-invalid"
+           id="username"
+           title="Username"/>
+    <label for="password">Password</label>
+    <input type="password"
+           autofocus="autofocus"
+           name="password"
+           id="password"
+           th:errorclass="is-invalid"
+           th:value="*{password}"
+           title="Password"/>
+    <p class="invalid-feedback" th:if="${#object.#fields.hasErrors()}">Wrong username or password</p>
+    <button type="submit">Submit</button>
+</form>
+    <style>
+        button {
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 10rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 16rem;
+            min-width: 24rem;
+            background-color: #E95420;
+            border-radius: 14px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .invalid-feedback {
+            background-color: black;
+            color: red;
+            padding: 2px;
+            border-radius: 4px;
+        }
+    </style>
+</form>
+<th:block th:replace="~{fragments/footer}"></th:block>
+</body>
+</html>

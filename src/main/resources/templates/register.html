@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="~{fragments/head}"></th:block>
+</head>
+<body>
+<th:block th:replace="~{fragments/nav}"></th:block>
+<form th:method="post" th:object="${userRegistrationDTO}"
+>
+    <label for="username">Username</label>
+    <input type="text" autofocus="autofocus"
+           th:field="*{username}"
+           th:errorclass="has-error"
+           name="username" id="username" title="Username"/>
+    <p class="has-error" th:if="${#fields.hasErrors('username')}"
+        th:each="s : ${#fields.errors()}"
+        th:value="${s}"
+        th:text="${s}"></p>
+    <label for="email">Email</label>
+    <input type="text" autofocus="autofocus" name="email" id="email" title="Email"/>
+    <p class="has-error" th:if="${#fields.hasErrors('email')}"
+       th:each="s : ${#fields.errors()}"
+       th:value="${s}"
+       th:text="${s}"></p>
+    <label for="password">Password</label>
+    <input type="password" autofocus="autofocus" name="password" id="password" title="Password"/>
+    <p class="has-error" th:if="${#fields.hasErrors('password')}"
+       th:each="s : ${#fields.errors()}"
+       th:value="${s}"
+       th:text="${s}"></p>
+    <label for="confirmPassword">ConfirmPassword</label>
+    <input type="password" autofocus="autofocus" name="confirmPassword" id="confirmPassword" title="confirmPassword"/>
+    <p class="has-error" th:if="${#fields.hasErrors('confirmPassword')}"
+       th:each="s : ${#fields.errors()}"
+       th:value="${s}"
+       th:text="${s}"></p>
+    <button type="submit">Submit</button>
+</form>
+<style>
+    button {
+        margin-bottom: 12px;
+        margin-top: auto;
+        width: 10rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 16rem;
+        min-width: 24rem;
+        background-color: #E95420;
+        border-radius: 14px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+</form>
+<th:block th:replace="~{fragments/footer}"></th:block>
+</body>
+</html>
