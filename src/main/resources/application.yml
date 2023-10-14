@@ -2,8 +2,8 @@ spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: "jdbc:mysql://localhost:3306/phonebook?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC"
-    username: root
-    password: 8104301865a.
+    username: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
   servlet:
     multipart:
       max-file-size: 1MB
